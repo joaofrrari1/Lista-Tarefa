@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #868282; 
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4b4646;
+    box-shadow: 0 0 30px rgb(0, 0, 0); 
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input input {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.input button {
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #ffee00;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input button:first-child {
+    margin-right: 10px;
+}
+
+.input button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+span {
+    flex: 1;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.concluir {
+    background-color: #28a745;
+    margin-right: 5px;
+}
+
+.concluir:hover {
+    background-color: #218838;
+}
+
+.excluir {
+    background-color: #dc3545;
+}
+
+.excluir:hover {
+    background-color: #c82333;
+}
